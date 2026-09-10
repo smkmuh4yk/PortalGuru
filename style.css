@@ -142,41 +142,28 @@ footer {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* ====== Responsif (Tampilan HP) ====== */
+/* ====== Responsif ====== */
 @media (max-width: 600px) {
   .header-content {
     flex-direction: column;
   }
 
   .school-logo {
-    width: 60px; /* Diperkecil dari 90px */
+    width: 90px;
   }
 
   .header-text h1 {
-    font-size: 1.4em;
-  }
-
-  /* --- Pengaturan Ukuran Card di HP --- */
-  .grid {
-    padding: 10px; /* Margin ruang luar grid diperkecil */
-    grid-template-columns: repeat(3, 1fr); /* Tetap 3 kolom */
-    gap: 8px; /* Jarak antar card diperkecil */
-  }
-
-  .card {
-    padding: 8px 4px; /* Padding dalam card diperkecil agar card ringkas */
-    border-radius: 8px;
+    font-size: 1.8em;
   }
 
   .icon {
-    width: 40px;  /* Ukuran icon diperkecil dari 110px ke 40px */
-    height: 40px;
-    margin-bottom: 5px;
+    width: 90px;
+    height: 90px;
   }
 
-  .card a {
-    font-size: 0.75em; /* Ukuran teks diperkecil agar tidak meluap */
-    margin-top: 4px;
-    color: #0a1f44;    /* Diubah ke warna gelap agar terbaca di background putih */
+  .grid {
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr); /* tetap 2 kolom di HP */
+    gap: 15px;
   }
 }
