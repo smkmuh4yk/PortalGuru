@@ -1,7 +1,7 @@
 /* ====== Global Style ====== */
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #016776, #0a1f44);
+  background: linear-gradient(135deg, #10616e, #054464);
   color: white;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
 
 /* ====== Header ====== */
 .site-header {
-  background: linear-gradient(135deg, #016776, #0a1f44);
+  background: linear-gradient(135deg, #10616e, #054464);
   color: white;
   padding: 10px 5px; /* lebih kecil agar header tidak terlalu tinggi */
   text-align: center;
