@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 .card {
-  background-color: rgba(20, 112, 126, 0.928);
+  background-color: rgba(102, 186, 198, 0.928);
   border-radius: 12px;
   text-align: center;
   padding: 30px;
@@ -96,7 +96,7 @@ nav a:hover {
 
 .card:hover {
   transform: translateY(-8px);
-  background-color: rgba(208, 228, 233, 0.719);
+  background-color: rgb(234, 244, 243);
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
 }
 
